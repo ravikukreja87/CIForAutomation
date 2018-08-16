@@ -11,7 +11,7 @@ public class CommonTest {
 
 	@Test
 	public void testMainTest() {
-		System.setProperty("webdriver.chrome.driver", "resources/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		// Created a driver instance. Which will drive chorome browser in my script
 		driver.get("http://crm.techcanvass.co.in/");
